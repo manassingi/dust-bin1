@@ -21,7 +21,7 @@ function setup() {
 	bin2=new bin(1120,630,150,20)
 	bin3=new bin(1050,540,20,200)
 	groundSprite=createSprite(700,650, width,10);
-	groundSprite.shapeColor=color("white")
+	groundSprite.shapeColor=color("yellow")
 
 	Engine.run(engine);
 	ground = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true,restitution:1} );
